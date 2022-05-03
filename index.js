@@ -1,5 +1,5 @@
-const exp = require ("express");
-const app = exp ();
+const exp = require("express");
+const app = exp();
 const porta = process.env.PORT || 3000
 app.get('/', (req,res)=>{
     app.send('heroku')
